@@ -40,8 +40,8 @@ async function getHistoricalData(req, res) {
     );
 
     // Salvar os dados em um arquivo JSON
-    const nomeArquivo = `../dados/cotacoes-${new Date().toISOString().split('T')[0]}.json`;
-    salvarArquivoYahooFinance(nomeArquivo, resultados);
+   // const nomeArquivo = `../dados/cotacoes-${new Date().toISOString().split('T')[0]}.json`;
+    //salvarArquivoYahooFinance(nomeArquivo, resultados);
 
     res.json(resultados);
   } catch (error) {

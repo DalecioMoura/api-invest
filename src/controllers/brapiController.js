@@ -30,7 +30,7 @@ async function getQuotes(req, res) {
     }
   }
 
-  salvarArquivo('../cotacoes/cotacoesBrApi.json', resultados);
+  //salvarArquivo('../cotacoes/cotacoesBrApi.json', resultados);
   res.json({ data: resultados });
 }
 
