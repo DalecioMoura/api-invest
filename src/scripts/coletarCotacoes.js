@@ -9,7 +9,8 @@ const symbols = [
   'AGRX11.SA', 'MXRF11.SA'
 ];
 
-const url = `http://localhost:3001/api/stocks/investing?symbols=${symbols.join(',')}`;
+//const url = `http://localhost:3001/api/stocks/investing?symbols=${symbols.join(',')}`;
+const url = `https://api-invest-f0s1.onrender.com/api/stocks/investing?symbols=${symbols.join(',')}`;
 
 // Agendar para dias úteis às 18h (segunda a sexta)
 cron.schedule('0 18 * * 1-5', async () => {
