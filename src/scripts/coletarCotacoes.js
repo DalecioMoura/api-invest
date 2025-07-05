@@ -10,7 +10,7 @@ const symbols = [
 ];
 
 //const url = `http://localhost:3001/api/stocks/investing?symbols=${symbols.join(',')}`;
-const url = `https://api-invest-f0s1.onrender.com/api/stocks/investing?symbols=${symbols.join(',')}`;
+const url = `https://api-invest-f0s1.onrender.com/api/stocks/yahoofinance?symbols=${symbols.join(',')}`;
 
 // Agendar para dias úteis às 18h (segunda a sexta)
 cron.schedule('0 18 * * 1-5', async () => {
