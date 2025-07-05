@@ -1,0 +1,18 @@
+{
+    "nome":"Vale S.A.",
+    "símbolo":"VALE3.SA",
+    "preçoAtual":55.2,
+    "aberturaHoje":55.03,
+    "fechamentoAnterior":55.04,
+    "variação":0.16,
+    "percentual":0.29,
+    "máximaHoje":55.2,
+    "mínimaHoje":54.75,
+    "volume":5415400,
+    "máxima52Semanas":65.35,
+    "mínima52Semanas":48.77,
+    "dividendYieldAtual":14.23,
+    "dividendRateEstimado":7.49,
+    "dividendosUltimos12Meses":4.756,
+    "atualizadoEm":"2025-07-04T20:07:00.000Z"
+}
